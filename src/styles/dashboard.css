@@ -1,0 +1,105 @@
+.seasonButton button {
+    background: white;
+    padding: 13px 20px;
+    border-radius: 9px;
+    border: 2px solid transparent;
+}
+.seasonButton button:hover{
+    cursor: pointer;
+}
+.activeButton{
+    border: 2px solid red!important;
+}
+.dropdownSorted ul {
+    background: white;
+    gap: 0!important;
+    display: flex;
+    flex-direction: column;
+}
+.dropdownSorted ul li {
+    width: -moz-fit-content!important;
+    width: fit-content!important;
+    min-width: initial!important;
+}
+.dropdownSorted {
+    background: #EFEFEF;
+    padding: 9px 9px;
+    position: absolute;
+    top: 41px;
+    border-radius: 6px;
+}
+.posotionLi{
+    position: relative;
+}
+.seasonButton {
+    display: flex;
+    gap: 12px;
+}
+
+/* button end */
+
+.dashboardWrapper{
+    padding: 0 91px;
+
+}
+
+/* ranking css start */
+.teamSwitchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+}
+.rankingContent {
+    display: flex;
+    justify-content: space-between;
+}
+.dashboardDataTitle ul {
+    display: flex;
+    border-bottom: 1px solid #D5D5DE;
+    gap: 7rem;
+}
+.togeelButton {
+    width: 12px;
+    position: absolute;
+    background: red;
+    height: 12px;
+    border-radius: 61px;
+    transition: position .4s ease;
+    top: 4px;
+}
+.toggelLeft{
+    left: 3px!important;
+}
+.toggelRight{
+    right: 3px!important;
+}
+.toggel {
+    width: 44px;
+    height: 21px;
+    border: 2px solid red;
+    border-radius: 20px;
+    position: relative;
+}
+.dashboardDataTitle ul li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    min-width: 180px;
+    max-width: 180px;
+    padding: 14px 25px;
+    box-sizing: border-box;
+}
+.toggel, .posotionLi:hover{
+cursor: pointer;
+}
+.perUserData {
+    border-bottom: 1.5px solid #D5D5DE;
+}
+.rankingDashboard {
+    background: white;
+    border-radius: 9px;
+}
+
+

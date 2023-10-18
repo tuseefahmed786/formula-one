@@ -1,0 +1,38 @@
+.heroWrapper {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.heroImages img {
+    width: 100%;
+    height: 100%;
+}
+.heroContent {
+    display: flex;
+    align-items: center;
+    padding-left: 6em;
+    box-sizing: border-box;
+}
+.heroContent h1 {
+    font-size: 64px;
+    max-width: 313px;
+}
+.ellipseWrapper{
+    display: flex;
+}
+.heroEllispetwo{
+    background: url("../static/assests/herosection/Ellipse.svg");
+    width: 72px;
+    height: 100%; 
+}
+.heroEllispe {
+    background: url("../static/assests/herosection/ellipseone.png");
+    width: 72px;
+    height: 100%;
+}
+.heroImages {
+    width: 50vw;
+    background: linear-gradient(91deg, #000 1.23%, rgba(124, 114, 114, 0.09) 50.41%, rgba(136, 125, 125, 0.00) 55.22%), url('../static/assests/herosection/heroImage.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+}
